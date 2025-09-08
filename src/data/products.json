@@ -1,0 +1,193 @@
+{
+  "currency": "SAR",
+  "dishes": [
+    {
+      "id": 1,
+      "name": "Chicken Biryani",
+      "sizes": [
+        { "label": "Half", "price": 15 },
+        { "label": "Full", "price": 25 }
+      ],
+      "image": "/images/chicken-biryani.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mutton Pulao",
+      "sizes": [
+        { "label": "Half", "price": 25 },
+        { "label": "Full", "price": 35 }
+      ],
+      "image": "/images/mutton-pulao.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Biryani Rice",
+      "sizes": [{ "label": "Regular", "price": 12 }],
+      "image": "/images/biryani-rice.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Daal Chawal",
+      "sizes": [{ "label": "Regular", "price": 12 }],
+      "image": "/images/daal-chawal.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Zeera Rice",
+      "sizes": [{ "label": "Regular", "price": 10 }],
+      "image": "/images/zeera-rice.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Special Nihari",
+      "sizes": [{ "label": "Regular", "price": 18 }],
+      "image": "/images/special-nihari.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Chicken Qourma",
+      "sizes": [{ "label": "Regular", "price": 18 }],
+      "image": "/images/chicken-qourma.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Murgh Channa",
+      "sizes": [{ "label": "Regular", "price": 15 }],
+      "image": "/images/murgh-channa.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Haleem",
+      "sizes": [{ "label": "Regular", "price": 18 }],
+      "image": "/images/haleem.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Kari Pakora",
+      "sizes": [{ "label": "Regular", "price": 15 }],
+      "image": "/images/kari-pakora.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Mutton Paya",
+      "sizes": [{ "label": "Regular", "price": 17 }],
+      "image": "/images/mutton-paya.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Aloo Goasht",
+      "sizes": [{ "label": "Regular", "price": 18 }],
+      "image": "/images/aloo-goasht.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Special Thall",
+      "sizes": [{ "label": "Regular", "price": 25 }],
+      "image": "/images/special-thall.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Daal Makhni",
+      "sizes": [{ "label": "Regular", "price": 12 }],
+      "image": "/images/daal-makhni.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Daal Channa",
+      "sizes": [{ "label": "Regular", "price": 12 }],
+      "image": "/images/daal-channa.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Daal Mash",
+      "sizes": [{ "label": "Regular", "price": 12 }],
+      "image": "/images/daal-mash.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Vegetable",
+      "sizes": [{ "label": "Regular", "price": 12 }],
+      "image": "/images/vegetable.jpg"
+    },
+    {
+      "id": 18,
+      "name": "Lassi",
+      "sizes": [{ "label": "Regular", "price": 6 }],
+      "image": "/images/lassi.jpg"
+    },
+    {
+      "id": 19,
+      "name": "Kheer",
+      "sizes": [{ "label": "Regular", "price": 8 }],
+      "image": "/images/kheer.jpg"
+    },
+    {
+      "id": 20,
+      "name": "Tea",
+      "sizes": [{ "label": "Regular", "price": 2 }],
+      "image": "/images/tea.jpg"
+    },
+    {
+      "id": 21,
+      "name": "Paratha",
+      "sizes": [{ "label": "Regular", "price": 2 }],
+      "image": "/images/paratha.jpg"
+    },
+    {
+      "id": 22,
+      "name": "Aloo Paratha",
+      "sizes": [{ "label": "Regular", "price": 5 }],
+      "image": "/images/aloo-paratha.jpg"
+    },
+    {
+      "id": 23,
+      "name": "Channa",
+      "sizes": [{ "label": "Regular", "price": 10 }],
+      "image": "/images/channa.jpg"
+    },
+    {
+      "id": 24,
+      "name": "Anda Channa",
+      "sizes": [{ "label": "Regular", "price": 12 }],
+      "image": "/images/anda-channa.jpg"
+    },
+    {
+      "id": 25,
+      "name": "Omelette",
+      "sizes": [{ "label": "Regular", "price": 6 }],
+      "image": "/images/omelette.jpg"
+    },
+    {
+      "id": 26,
+      "name": "Fry Egg",
+      "sizes": [{ "label": "Regular", "price": 6 }],
+      "image": "/images/fry-egg.jpg"
+    },
+    {
+      "id": 27,
+      "name": "Halwa",
+      "sizes": [{ "label": "Regular", "price": 5 }],
+      "image": "/images/halwa.jpg"
+    },
+    {
+      "id": 28,
+      "name": "Chicken Nihari",
+      "sizes": [{ "label": "Regular", "price": 18 }],
+      "image": "/images/chicken-nihari.jpg"
+    }
+  ],
+  "menus": {
+    "main": {
+      "Rice Dishes": [1, 2, 3, 4, 5],
+      "Curries & Special Dishes": [6, 7, 8, 9, 10, 11, 12, 13],
+      "Vegetarian & Lentils": [14, 15, 16, 17],
+      "Desserts & Drinks": [18, 19, 20]
+    },
+    "breakfast": {
+      "Breads": [21, 22],
+      "Proteins & Curries": [23, 24, 9, 28, 11],
+      "Eggs & Light Meals": [25, 26, 27],
+      "Desserts & Drinks": [18, 19, 20]
+    }
+  }
+}
