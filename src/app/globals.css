@@ -3,6 +3,36 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* Colors */
+  --color-white: #FFFFFF;
+  --color-gold: #D18D4E;
+  --color-yellow: #F7DB5E;
+  --color-black: #000000;
+  --color-orange: #FF7305A1;
+
+  /* Fonts */
+  --font-inter: 'Inter', sans-serif;
+  --font-impact: 'Impact', sans-serif;
+  --font-britannic: 'Britannic Bold', sans-serif;
+  --font-imprint: 'Imprint MT Shadow', serif;
+  --font-inria: 'Inria Serif', serif;
+
+  /* Font Sizes */
+  --text-48: 48px;
+  --text-32: 32px;
+  --text-30: 30px;
+  --text-24: 24px;
+  --text-20: 20px;
+
+  /* Font Weights */
+  --weight-bold: 700;
+  --weight-medium: 500;
+  --weight-regular: 400;
+
+  /* Line Heights */
+  --leading-tight: 110%;
+  --leading-normal: 140%;
 }
 
 @theme inline {
@@ -20,7 +50,9 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+  margin: 0;
+  padding: 0;
 }
