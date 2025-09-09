@@ -8,7 +8,7 @@
         { "label": "Half", "price": 15 },
         { "label": "Full", "price": 25 }
       ],
-      "image": "/images/chicken-biryani.jpg"
+      "image": "/biryani.svg"
     },
     {
       "id": 2,
@@ -17,163 +17,163 @@
         { "label": "Half", "price": 25 },
         { "label": "Full", "price": 35 }
       ],
-      "image": "/images/mutton-pulao.jpg"
+      "image": "/mutton-pulao.svg"
     },
     {
       "id": 3,
       "name": "Biryani Rice",
       "sizes": [{ "label": "Regular", "price": 12 }],
-      "image": "/images/biryani-rice.jpg"
+      "image": "/biryani-rice.svg"
     },
     {
       "id": 4,
       "name": "Daal Chawal",
       "sizes": [{ "label": "Regular", "price": 12 }],
-      "image": "/images/daal-chawal.jpg"
+      "image": "/daal-chawal.svg"
     },
     {
       "id": 5,
       "name": "Zeera Rice",
       "sizes": [{ "label": "Regular", "price": 10 }],
-      "image": "/images/zeera-rice.jpg"
+      "image": "/zeera-rice.svg"
     },
     {
       "id": 6,
       "name": "Special Nihari",
       "sizes": [{ "label": "Regular", "price": 18 }],
-      "image": "/images/special-nihari.jpg"
+      "image": "/special-nihari.svg"
     },
     {
       "id": 7,
       "name": "Chicken Qourma",
       "sizes": [{ "label": "Regular", "price": 18 }],
-      "image": "/images/chicken-qourma.jpg"
+      "image": "/qorma.svg"
     },
     {
       "id": 8,
       "name": "Murgh Channa",
       "sizes": [{ "label": "Regular", "price": 15 }],
-      "image": "/images/murgh-channa.jpg"
+      "image": "/murgh-channa.svg"
     },
     {
       "id": 9,
       "name": "Haleem",
       "sizes": [{ "label": "Regular", "price": 18 }],
-      "image": "/images/haleem.jpg"
+      "image": "/haleem.svg"
     },
     {
       "id": 10,
       "name": "Kari Pakora",
       "sizes": [{ "label": "Regular", "price": 15 }],
-      "image": "/images/kari-pakora.jpg"
+      "image": "/kari-pakora.svg"
     },
     {
       "id": 11,
       "name": "Mutton Paya",
       "sizes": [{ "label": "Regular", "price": 17 }],
-      "image": "/images/mutton-paya.jpg"
+      "image": "/mutton-paya.svg"
     },
     {
       "id": 12,
       "name": "Aloo Goasht",
       "sizes": [{ "label": "Regular", "price": 18 }],
-      "image": "/images/aloo-goasht.jpg"
+      "image": "/aloo-goasht.svg"
     },
     {
       "id": 13,
       "name": "Special Thall",
       "sizes": [{ "label": "Regular", "price": 25 }],
-      "image": "/images/special-thall.jpg"
+      "image": "/special-thall.svg"
     },
     {
       "id": 14,
       "name": "Daal Makhni",
       "sizes": [{ "label": "Regular", "price": 12 }],
-      "image": "/images/daal-makhni.jpg"
+      "image": "/daal-makhni.svg"
     },
     {
       "id": 15,
       "name": "Daal Channa",
       "sizes": [{ "label": "Regular", "price": 12 }],
-      "image": "/images/daal-channa.jpg"
+      "image": "/daal-channa.svg"
     },
     {
       "id": 16,
       "name": "Daal Mash",
       "sizes": [{ "label": "Regular", "price": 12 }],
-      "image": "/images/daal-mash.jpg"
+      "image": "/daal-mash.svg"
     },
     {
       "id": 17,
       "name": "Vegetable",
       "sizes": [{ "label": "Regular", "price": 12 }],
-      "image": "/images/vegetable.jpg"
+      "image": "/vegetable.svg"
     },
     {
       "id": 18,
       "name": "Lassi",
       "sizes": [{ "label": "Regular", "price": 6 }],
-      "image": "/images/lassi.jpg"
+      "image": "/lassi.svg"
     },
     {
       "id": 19,
       "name": "Kheer",
       "sizes": [{ "label": "Regular", "price": 8 }],
-      "image": "/images/kheer.jpg"
+      "image": "/kheer.svg"
     },
     {
       "id": 20,
       "name": "Tea",
       "sizes": [{ "label": "Regular", "price": 2 }],
-      "image": "/images/tea.jpg"
+      "image": "/tea.svg"
     },
     {
       "id": 21,
       "name": "Paratha",
       "sizes": [{ "label": "Regular", "price": 2 }],
-      "image": "/images/paratha.jpg"
+      "image": "/paratha.svg"
     },
     {
       "id": 22,
       "name": "Aloo Paratha",
       "sizes": [{ "label": "Regular", "price": 5 }],
-      "image": "/images/aloo-paratha.jpg"
+      "image": "/aloo-paratha.svg"
     },
     {
       "id": 23,
       "name": "Channa",
       "sizes": [{ "label": "Regular", "price": 10 }],
-      "image": "/images/channa.jpg"
+      "image": "/channa.svg"
     },
     {
       "id": 24,
       "name": "Anda Channa",
       "sizes": [{ "label": "Regular", "price": 12 }],
-      "image": "/images/anda-channa.jpg"
+      "image": "/anda-channa.svg"
     },
     {
       "id": 25,
       "name": "Omelette",
       "sizes": [{ "label": "Regular", "price": 6 }],
-      "image": "/images/omelette.jpg"
+      "image": "/omelette.svg"
     },
     {
       "id": 26,
       "name": "Fry Egg",
       "sizes": [{ "label": "Regular", "price": 6 }],
-      "image": "/images/fry-egg.jpg"
+      "image": "/fry-egg.svg"
     },
     {
       "id": 27,
       "name": "Halwa",
       "sizes": [{ "label": "Regular", "price": 5 }],
-      "image": "/images/halwa.jpg"
+      "image": "/halwa.svg"
     },
     {
       "id": 28,
       "name": "Chicken Nihari",
       "sizes": [{ "label": "Regular", "price": 18 }],
-      "image": "/images/chicken-nihari.jpg"
+      "image": "/chicken-nihari.svg"
     }
   ],
   "menus": {

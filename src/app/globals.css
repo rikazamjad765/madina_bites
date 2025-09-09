@@ -17,6 +17,8 @@
   --font-britannic: 'Britannic Bold', sans-serif;
   --font-imprint: 'Imprint MT Shadow', serif;
   --font-inria: 'Inria Serif', serif;
+  --font-love: 'Love Light', sans-serif;
+  --font-pt: 'PT Sans', sans-serif;
 
   /* Font Sizes */
   --text-48: 48px;
@@ -40,6 +42,37 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+}
+
+@layer utilities {
+  .font-inter { font-family: var(--font-inter); }
+  .font-impact { font-family: var(--font-impact); }
+  .font-britannic { font-family: var(--font-britannic); }
+  .font-imprint { font-family: var(--font-imprint); }
+  .font-inria { font-family: var(--font-inria); }
+  .font-love { font-family: var(--font-love); }
+  .font-pt { font-family: var(--font-pt); }
+
+  .text-48 { font-size: 48px; }
+  .text-32 { font-size: 32px; }
+  .text-30 { font-size: 30px; }
+  .text-24 { font-size: 24px; }
+  .text-20 { font-size: 20px; }
+
+  .font-bold { font-weight: var(--weight-bold); }
+  .font-medium { font-weight: var(--weight-medium); }
+  .font-regular { font-weight: var(--weight-regular); }
+
+  .leading-tight { line-height: var(--leading-tight); }
+  .leading-normal { line-height: var(--leading-normal); }
+
+  .text-gold { color: var(--color-gold); }
+  .text-yellow { color: var(--color-yellow); }
+  .text-orange { color: var(--color-orange); }
+
+  .bg-gold { background-color: var(--color-gold); }
+  .bg-yellow { background-color: var(--color-yellow); }
+  .bg-orange { background-color: var(--color-orange); }
 }
 
 @media (prefers-color-scheme: dark) {
