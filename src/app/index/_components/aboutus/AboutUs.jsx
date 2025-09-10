@@ -12,16 +12,23 @@ const AboutUs = () => {
         </p>
       </div>
       <div className='grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-[1000px]'>
-        <div className='col-span-1 bg-gold p-6 md:py-8 md:px-4 rounded-2xl flex justify-center md:relative space-x-4'>
+        <div className='col-span-1 p-6 md:py-8 md:px-4 rounded-2xl flex justify-center md:relative space-x-4'>
           <Image
             src="/biryani.svg"
             alt="food image"
             width={10}
             height={50}
             priority
-            className='rounded-xl md:w-[170px] w-[50%] object-cover h-auto md:absolute md:-rotate-12 top-40 lg:left-10'
+            className='border border-white rounded-xl md:w-[170px] w-[50%] object-cover h-auto md:absolute md:-rotate-12 top-40 lg:left-10'
           />
-          <Image src="/qorma.svg" alt="food image" width={10} height={50} priority className='md:w-[170px] w-[50%] object-cover rounded-xl max-w-full h-auto md:absolute  md:-rotate-12 top-2 lg:right-10 shadow-2xl' />
+          <Image 
+            src="/qorma.svg" 
+            alt="food image" 
+            width={10} 
+            height={50} 
+            priority 
+            className='md:w-[170px] w-[50%] object-cover rounded-xl max-w-full h-auto md:absolute  md:-rotate-12 top-2 lg:right-10 shadow-2xl border border-white'  
+          />
         </div>
         <div className='col-span-1 md:col-span-2 bg-white/50 rounded-2xl'>
           <div className='p-6 md:p-10 max-w-full text-start space-y-4'>
