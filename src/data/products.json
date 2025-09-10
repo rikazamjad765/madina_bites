@@ -184,10 +184,10 @@
   ],
   "menus": {
     "main": {
-      "Rice Dishes": [1, 2, 3, 4, 5],
-      "Curries & Special Dishes": [6, 7, 8, 9, 10, 11, 12, 13],
-      "Vegetarian & Lentils": [14, 15, 16, 17],
-      "Desserts & Drinks": [18, 19, 20]
+      "Mutton & Chicken": [3, 2, 1, 8, 12, 11, 6, 7, 28],
+      "Daal": [4, 14, 15, 16],
+      "Others": [10, 17, 13, 9, 5, 29, 19, 21, 22, 23, 24, 25, 26, 27],
+      "Beverage": [18, 20]
     },
     "breakfast": {
       "Breads": [21, 22],

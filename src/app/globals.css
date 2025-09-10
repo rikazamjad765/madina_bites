@@ -9,8 +9,7 @@
   --color-gold: #D18D4E;
   --color-yellow: #F7DB5E;
   --color-black: #000000;
-  --color-orange: #FF7305A1;
-
+  --color-orange: ##FF7305A1;
   /* Fonts */
   --font-inter: 'Inter', sans-serif;
   --font-impact: 'Impact', sans-serif;
@@ -21,11 +20,12 @@
   --font-pt: 'PT Sans', sans-serif;
 
   /* Font Sizes */
-  --text-48: 48px;
-  --text-32: 32px;
-  --text-30: 30px;
-  --text-24: 24px;
-  --text-20: 20px;
+  --text-96: clamp(28px, 5vw, 96px);
+  --text-48: clamp(20px, 3vw, 48px);
+  --text-32: clamp(18px, 2.5vw, 32px);
+  --text-30: clamp(15px, 2.3vw, 30px);
+  --text-24: clamp(14px, 2vw, 24px);
+  --text-20: clamp(12px, 1.6vw, 20px);
 
   /* Font Weights */
   --weight-bold: 700;
@@ -53,11 +53,12 @@
   .font-love { font-family: var(--font-love); }
   .font-pt { font-family: var(--font-pt); }
 
-  .text-48 { font-size: 48px; }
-  .text-32 { font-size: 32px; }
-  .text-30 { font-size: 30px; }
-  .text-24 { font-size: 24px; }
-  .text-20 { font-size: 20px; }
+  .text-96 { font-size: var(--text-96); }
+  .text-48 { font-size: var(--text-48); }
+  .text-32 { font-size: var(--text-32); }
+  .text-30 { font-size: var(--text-30); }
+  .text-24 { font-size: var(--text-24); }
+  .text-20 { font-size: var(--text-20); }
 
   .font-bold { font-weight: var(--weight-bold); }
   .font-medium { font-weight: var(--weight-medium); }

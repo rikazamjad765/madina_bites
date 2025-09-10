@@ -8,7 +8,7 @@ export default function Navbar() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
 
   return (
-    <div className="max-w-[1440px] w-full mx-auto flex flex-col">
+    <div className="w-full mx-auto flex flex-col">
       <nav
         className="w-full h-24 flex items-center justify-between"
         style={{ backgroundColor: 'var(--color-black)', color: 'var(--color-white)' }}

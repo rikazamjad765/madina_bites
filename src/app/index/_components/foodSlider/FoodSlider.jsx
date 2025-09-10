@@ -14,19 +14,19 @@ export default function ProductSlider() {
   const items = dishes.slice(0, 10); // show only first 10
 
   return (
-    <div className="w-full md:py-20 py-10">
-      <h2 className="font-love text-6xl text-center mb-10">Our Menu</h2>
+    <div className="max-w-[1600px] w-full mx-auto md:py-20 py-10 px-4">
+      <h2 className="font-love text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl text-center mb-10">Our Menu</h2>
       <Swiper
         modules={[Autoplay, Navigation, Pagination]}
-        spaceBetween={20}
+        spaceBetween={10}
         slidesPerView={5}
         loop={true}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
         className="pb-20"
         breakpoints={{
-          320: { slidesPerView: 1 },
-          640: { slidesPerView: 3 },
-          1024: { slidesPerView: 5 },
+          320: { slidesPerView: 1.2 },
+          640: { slidesPerView: 2.5 },
+          1024: { slidesPerView: 4.5 },
         }}
         onSwiper={(swiper) => {
           // pause on hover
@@ -36,7 +36,7 @@ export default function ProductSlider() {
       >
         {items.map((dish, idx) => (
           <SwiperSlide key={dish.id}>
-            <div className="border border-white rounded-2xl shadow-md overflow-hidden flex flex-col items-center justify-between max-w-60 h-80 cursor-pointer">
+            <div className="border border-white rounded-2xl shadow-md overflow-hidden flex flex-col items-center justify-between max-w-70 md:ms-10 h-80 cursor-pointer">
               <div className="relative w-full h-full">
                 <Image
                   src={dish.image}
@@ -55,7 +55,7 @@ export default function ProductSlider() {
               </div>
 
             </div>
-              <div className="ms-2">
+              <div className="ms-10">
                 <h3 className="text-lg font-semibold mt-2 text-white">
                   {dish.name}
                 </h3>
