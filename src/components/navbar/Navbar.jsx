@@ -3,9 +3,12 @@
 import React, { useState } from 'react'
 import { Search, User, ShoppingBag, Menu, X } from 'lucide-react'
 import Image from 'next/image'
+import Link from "next/link";
+import { useCartStore } from '@/store/cartStore';
 
 export default function Navbar() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
+  const cart = useCartStore((state) => state.cart);
 
   return (
     <div className="w-full mx-auto flex flex-col">
@@ -21,16 +24,34 @@ export default function Navbar() {
             className="hidden md:flex gap-8"
             style={{ fontFamily: 'var(--font-inter)', fontWeight: 'var(--weight-medium)', fontSize: 'var(--text-20)' }}
           >
-            <li className="cursor-pointer hover:text-primary">Home</li>
-            <li className="cursor-pointer hover:text-primary">Menu</li>
-            <li className="cursor-pointer hover:text-primary">About us</li>
+            <li>
+              <Link href="/" className="cursor-pointer hover:text-primary">
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link href="/#menu" className="cursor-pointer hover:text-primary">
+                Menu
+              </Link>
+            </li>
+            <li>
+              <Link href="/#aboutus" className="cursor-pointer hover:text-primary">
+                About us
+              </Link>
+            </li>
           </ul>
 
           {/* Right side Icons */}
           <div className="flex gap-6 items-center">
             <Search className="w-5 h-5 cursor-pointer" />
-            <User className="w-5 h-5 cursor-pointer" />
-            <ShoppingBag className="w-5 h-5 cursor-pointer" />
+            {/* <User className="w-5 h-5 cursor-pointer" /> */}
+            <Link className='flex relative' href="/cart">
+              <ShoppingBag className="w-5 h-5 cursor-pointer" />
+              {cart.length > 0 && (
+                <span className="text-xs font-pt absolute -top-4 -right-3 bg-red-500 w-5 h-5 rounded-full flex justify-center items-center">{cart.length}</span>
+              )}
+            </Link>
+            
             <Menu
               className="w-6 h-6 cursor-pointer md:hidden"
               onClick={() => setSidebarOpen(true)}

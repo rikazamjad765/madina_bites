@@ -19,9 +19,9 @@ export default function OurMenu() {
   }, {});
 
   return (
-    <section className="max-w-[1600px] w-full mx-auto md:py-20 py-10 text-white">
+    <section className="max-w-[1600px] w-full mx-auto md:py-20 py-10 text-white" id="menu">
       {/* Section Heading */}
-      <h2 className="text-center font-love text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-white mb-12">
+      <h2 className="text-center font-love text-5xl sm:text-5xl md:text-7xl lg:text-8xl text-white mb-12">
         Our Menu
       </h2>
 

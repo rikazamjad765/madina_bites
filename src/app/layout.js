@@ -13,10 +13,8 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`${inter.variable} ${inria.variable} ${love.variable} ${pt.variable} antialiased`}
-      >
+    <html lang="en" className="scroll-smooth">
+      <body className={`${inter.variable} ${inria.variable} ${love.variable} ${pt.variable} antialiased`}>
         {children}
       </body>
     </html>

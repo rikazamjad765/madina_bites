@@ -4,7 +4,7 @@ import React from 'react'
 
 const AboutUs = () => {
   return (
-    <div className='flex flex-col gap-8 md:py-20 py-10 text-center w-full items-center px-4 md:px-8'>
+    <div className='flex flex-col gap-8 md:py-20 py-10 text-center w-full items-center px-4 md:px-8' id='aboutus'>
       <div className='flex flex-col gap-4 text-center w-full items-center'>
         <h1 className='font-love text-4xl sm:text-6xl md:text-7xl lg:text-8xl leading-tight text-gold'>Why Dine With Us?</h1>
         <p className='max-w-[1000px] font-pt text-sm md:text-lg lg:text-xl'>

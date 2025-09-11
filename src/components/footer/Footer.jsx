@@ -1,4 +1,5 @@
 'use client'
+import Link from "next/link";
 import { FaFacebook } from "react-icons/fa6";
 import { GrInstagram } from "react-icons/gr";
 import { IoLogoTiktok } from "react-icons/io5";
@@ -19,9 +20,17 @@ const Footer = () => {
                     <h2 className='font-bold xl:text-3xl lg:text-2xl text-xl font-bona pb-3 text-[#ce9e35]'>Usefull Links</h2>
                     <div className='flex gap-20 xl:text-lg lg:text-base text-sm'>
                         <ul className="md:flex space-x-10 space-y-5">
-                            <li className='cursor-pointer hover:underline hover:text-[#ce9e35] transition-all ease-in-out duration-100 pt-1'>Home</li>
-                            <li className='cursor-pointer hover:underline hover:text-[#ce9e35] transition-all ease-in-out duration-100 pt-1'>Menu</li>
-                            <li className='cursor-pointer hover:underline hover:text-[#ce9e35] transition-all ease-in-out duration-100 pt-1'>About</li>
+                            <li>
+                                <Link href={'/'} className='cursor-pointer hover:text-[#ce9e35] transition-all ease-in-out duration-100 pt-1'>
+                                    Home
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href={'/#menu'} className='cursor-pointer hover:text-[#ce9e35] transition-all ease-in-out duration-100 pt-1'>Menu</Link>
+                            </li>
+                            <li>
+                                <Link href={'/#about'} className='cursor-pointer hover:text-[#ce9e35] transition-all ease-in-out duration-100 pt-1'>About Us</Link>
+                            </li>
                         </ul>
                     </div>
                 </div>
