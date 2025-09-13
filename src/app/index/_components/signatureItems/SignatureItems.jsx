@@ -6,6 +6,7 @@ import productsData from "@/data/products.json";
 import { AlarmClock, ArrowDownFromLine, ArrowUpFromLine } from "lucide-react";
 import Link from "next/link";
 import { useCartStore } from "@/store/cartStore";
+import AddToCartButton from "@/components/addToCartButton/AddToCartButton";
 
 export default function SignatureItems() {
   const { dishes, currency } = productsData;
@@ -29,11 +30,12 @@ export default function SignatureItems() {
         {dishes.slice(0, visibleCount).map((item) => {
           // take first price (for display)
           const firstSize = item.sizes[0];
+          const secondSize = item?.sizes[1];
           return (
             <Link href={`/product/${item.id}`} key={item.id}>
               <div
                 key={item.id}
-                className="lg:w-[400px] sm:w-[300px] w-full rounded-xl text-left hover:scale-[1.02] transition-transform flex flex-col items-center cursor-pointer sm:mx-4 bg-white pb-2"
+                className="lg:w-[400px] sm:w-[300px] w-full rounded-xl text-left hover:scale-102 duration-200 transition-transform flex flex-col items-center cursor-pointer sm:mx-4 bg-white pb-2"
               >
                 {/* Product Image */}
                 <div className="lg:w-[400px] sm:w-[300px] w-full lg:h-[400px] sm:h-[300px] h-[280px] relative mx-2">
@@ -52,7 +54,7 @@ export default function SignatureItems() {
     
                   {/* time and calories */}
                   <p className="mt-2 text-black flex font-pt space-x-4 lg:text-base text-sm items-center">
-                    <AlarmClock className="w-5 h-5 me-1"/>15 min | 500 Kcal
+                    <AlarmClock className="w-5 h-5 me-1"/>{item.time} | {item.calories} Kcal
                   </p>
 
                   <div className="w-full flex justify-between items-center pe-2">
@@ -60,16 +62,13 @@ export default function SignatureItems() {
                   <p className="mt-2 text-black font-pt lg:text-base text-sm">
                     {currency} {firstSize.price}.00
                   </p>
+                  {secondSize?.price && (
+                    <span className="ms-2">
+                      {currency} {secondSize.price}.00
+                    </span>
+                  )}
                   {/* add button */}
-                  <button
-                    onClick={() => addToCart(item.id)}
-                    className="flex items-center gap-2 px-[15px] py-[6px] rounded-full 
-                    bg-gradient-to-r from-yellow-500 to-red-500 text-white 
-                    font-pt md:text-lg font-medium shadow-lg 
-                    hover:scale-105 hover:shadow-xl transition-transform duration-300 cursor-pointer"
-                  >
-                    +
-                  </button>
+                  {/* <AddToCartButton item={item} addToCart={addToCart} showText={false} width="30px"/> */}
                   </div>
                 </div>
               </div>

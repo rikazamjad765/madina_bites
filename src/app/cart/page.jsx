@@ -8,6 +8,8 @@ import Footer from "@/components/footer/Footer";
 export default function CartPage() {
   const cart = useCartStore((state) => state.cart);
 
+  console.log(cart, "cart");
+
   return (
     <>
       <Navbar />
@@ -21,7 +23,7 @@ export default function CartPage() {
             {/* Cart Items */}
             <div className="md:col-span-2 space-y-4">
               {cart.map((item) => (
-                <CartItem key={item.id} item={item} />
+                <CartItem key={`${item.id}-${item.size ?? ''}`} item={item} />
               ))}
             </div>
 

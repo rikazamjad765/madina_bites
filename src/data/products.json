@@ -8,7 +8,10 @@
         { "label": "Half", "price": 15 },
         { "label": "Full", "price": 25 }
       ],
-      "image": "/biryani.svg"
+      "image": "/biryani.svg",
+      "description": "Fragrant basmati rice cooked with tender chicken, aromatic spices, and saffron.",
+      "time": "30 mins",
+      "calories": 750
     },
     {
       "id": 2,
@@ -17,169 +20,253 @@
         { "label": "Half", "price": 25 },
         { "label": "Full", "price": 35 }
       ],
-      "image": "/mutton-pulao.svg"
+      "image": "/mutton-pulao.svg",
+      "description": "Slow-cooked mutton with long-grain rice, flavored with stock and whole spices.",
+      "time": "40 mins",
+      "calories": 820
     },
     {
       "id": 3,
       "name": "Mutton Qourma",
       "sizes": [{ "label": "Regular", "price": 28 }],
-      "image": "/mutton-qourma.svg"
+      "image": "/mutton-qourma.svg",
+      "description": "Rich curry made with tender mutton, yogurt, onions, and a blend of spices.",
+      "time": "35 mins",
+      "calories": 600
     },
     {
       "id": 4,
       "name": "Daal Chawal",
       "sizes": [{ "label": "Regular", "price": 12 }],
-      "image": "/daal-chawal.svg"
+      "image": "/daal-chawal.svg",
+      "description": "Comfort food of yellow lentils served over steamed rice, mildly spiced.",
+      "time": "20 mins",
+      "calories": 400
     },
     {
       "id": 5,
       "name": "Zeera Rice",
       "sizes": [{ "label": "Regular", "price": 10 }],
-      "image": "/zeera-rice.svg"
+      "image": "/zeera-rice.svg",
+      "description": "Basmati rice tempered with cumin seeds and light spices.",
+      "time": "15 mins",
+      "calories": 280
     },
     {
       "id": 6,
       "name": "Special Nihari",
       "sizes": [{ "label": "Regular", "price": 18 }],
-      "image": "/special-nihari.svg"
+      "image": "/special-nihari.svg",
+      "description": "Slow-cooked beef stew rich in spices, served with naan or rice.",
+      "time": "45 mins",
+      "calories": 640
     },
     {
       "id": 7,
       "name": "Chicken Qourma",
       "sizes": [{ "label": "Regular", "price": 18 }],
-      "image": "/qorma.svg"
+      "image": "/qorma.svg",
+      "description": "Creamy curry of chicken cooked with yogurt, onions, and aromatic spices.",
+      "time": "30 mins",
+      "calories": 480
     },
     {
       "id": 8,
       "name": "Murgh Channa",
       "sizes": [{ "label": "Regular", "price": 15 }],
-      "image": "/murgh-channa.svg"
+      "image": "/murgh-channa.svg",
+      "description": "A hearty dish of chicken cooked with chickpeas in a spicy gravy.",
+      "time": "25 mins",
+      "calories": 500
     },
     {
       "id": 9,
       "name": "Haleem",
       "sizes": [{ "label": "Regular", "price": 18 }],
-      "image": "/haleem.svg"
+      "image": "/haleem.svg",
+      "description": "Thick stew of lentils, wheat, and slow-cooked meat topped with fried onions.",
+      "time": "50 mins",
+      "calories": 700
     },
     {
       "id": 10,
       "name": "Kari Pakora",
       "sizes": [{ "label": "Regular", "price": 15 }],
-      "image": "/kari-pakora.svg"
+      "image": "/kari-pakora.svg",
+      "description": "Tangy yogurt-based curry with fried gram flour dumplings.",
+      "time": "30 mins",
+      "calories": 450
     },
     {
       "id": 11,
       "name": "Mutton Paya",
       "sizes": [{ "label": "Regular", "price": 17 }],
-      "image": "/mutton-paya.svg"
+      "image": "/mutton-paya.svg",
+      "description": "Traditional soup made with goat trotters simmered overnight with spices.",
+      "time": "60 mins",
+      "calories": 500
     },
     {
       "id": 12,
       "name": "Aloo Goasht",
       "sizes": [{ "label": "Regular", "price": 18 }],
-      "image": "/aloo-goasht.svg"
+      "image": "/aloo-goasht.svg",
+      "description": "Classic curry of mutton and potatoes in a spicy onion-tomato gravy.",
+      "time": "30 mins",
+      "calories": 520
     },
     {
       "id": 13,
       "name": "Special Thall",
       "sizes": [{ "label": "Regular", "price": 25 }],
-      "image": "/special-thall.svg"
+      "image": "/special-thall.svg",
+      "description": "Traditional platter with rice, curry, lentils, vegetables, and sides.",
+      "time": "35 mins",
+      "calories": 850
     },
     {
       "id": 14,
       "name": "Daal Makhni",
       "sizes": [{ "label": "Regular", "price": 12 }],
-      "image": "/daal-makhni.svg"
+      "image": "/daal-makhni.svg",
+      "description": "Creamy lentil dish made with black gram, butter, and cream.",
+      "time": "25 mins",
+      "calories": 420
     },
     {
       "id": 15,
       "name": "Daal Channa",
       "sizes": [{ "label": "Regular", "price": 12 }],
-      "image": "/daal-channa.svg"
+      "image": "/daal-channa.svg",
+      "description": "Split chickpeas cooked with spices for a hearty lentil curry.",
+      "time": "20 mins",
+      "calories": 380
     },
     {
       "id": 16,
       "name": "Daal Mash",
       "sizes": [{ "label": "Regular", "price": 12 }],
-      "image": "/daal-mash.svg"
+      "image": "/daal-mash.svg",
+      "description": "Urad lentils cooked with onions, garlic, and spices.",
+      "time": "20 mins",
+      "calories": 390
     },
     {
       "id": 17,
       "name": "Vegetable",
       "sizes": [{ "label": "Regular", "price": 12 }],
-      "image": "/vegetable.svg"
+      "image": "/vegetable.svg",
+      "description": "Seasonal mixed vegetables cooked with traditional spices.",
+      "time": "20 mins",
+      "calories": 250
     },
     {
       "id": 18,
       "name": "Lassi",
       "sizes": [{ "label": "Regular", "price": 6 }],
-      "image": "/lassi.svg"
+      "image": "/lassi.svg",
+      "description": "Refreshing yogurt-based drink, served sweet or salted.",
+      "time": "5 mins",
+      "calories": 180
     },
     {
       "id": 19,
       "name": "Kheer",
       "sizes": [{ "label": "Regular", "price": 8 }],
-      "image": "/kheer.svg"
+      "image": "/kheer.svg",
+      "description": "Rice pudding made with milk, sugar, and flavored with cardamom.",
+      "time": "25 mins",
+      "calories": 320
     },
     {
       "id": 20,
       "name": "Tea",
       "sizes": [{ "label": "Regular", "price": 2 }],
-      "image": "/tea.svg"
+      "image": "/tea.svg",
+      "description": "Traditional Pakistani chai brewed with milk and spices.",
+      "time": "5 mins",
+      "calories": 70
     },
     {
       "id": 21,
       "name": "Paratha",
       "sizes": [{ "label": "Regular", "price": 2 }],
-      "image": "/paratha.svg"
+      "image": "/paratha.svg",
+      "description": "Flaky fried flatbread made with wheat flour and ghee.",
+      "time": "10 mins",
+      "calories": 210
     },
     {
       "id": 22,
       "name": "Aloo Paratha",
       "sizes": [{ "label": "Regular", "price": 5 }],
-      "image": "/aloo-paratha.svg"
+      "image": "/aloo-paratha.svg",
+      "description": "Stuffed paratha with spiced mashed potatoes, served with chutney or yogurt.",
+      "time": "15 mins",
+      "calories": 320
     },
     {
       "id": 23,
       "name": "Channa",
       "sizes": [{ "label": "Regular", "price": 10 }],
-      "image": "/channa.svg"
+      "image": "/channa.svg",
+      "description": "Chickpeas simmered in a spiced onion-tomato gravy.",
+      "time": "25 mins",
+      "calories": 360
     },
     {
       "id": 24,
       "name": "Anda Channa",
       "sizes": [{ "label": "Regular", "price": 12 }],
-      "image": "/anda-channa.svg"
+      "image": "/anda-channa.svg",
+      "description": "Chickpeas curry topped with boiled or fried eggs.",
+      "time": "25 mins",
+      "calories": 420
     },
     {
       "id": 25,
       "name": "Omelette",
       "sizes": [{ "label": "Regular", "price": 6 }],
-      "image": "/omelette.svg"
+      "image": "/omelette.svg",
+      "description": "Egg omelette with onions, green chilies, and coriander.",
+      "time": "8 mins",
+      "calories": 180
     },
     {
       "id": 26,
       "name": "Fry Egg",
       "sizes": [{ "label": "Regular", "price": 6 }],
-      "image": "/fry-egg.svg"
+      "image": "/fry-egg.svg",
+      "description": "Sunny side up egg fried in ghee or oil.",
+      "time": "5 mins",
+      "calories": 90
     },
     {
       "id": 27,
       "name": "Halwa",
       "sizes": [{ "label": "Regular", "price": 5 }],
-      "image": "/halwa.svg"
+      "image": "/halwa.svg",
+      "description": "Traditional semolina sweet dish cooked with ghee and sugar.",
+      "time": "15 mins",
+      "calories": 300
     },
     {
       "id": 28,
       "name": "Chicken Nihari",
       "sizes": [{ "label": "Regular", "price": 18 }],
-      "image": "/chicken-nihari.svg"
+      "image": "/chicken-nihari.svg",
+      "description": "Slow-cooked chicken stew in rich spices, served with naan.",
+      "time": "40 mins",
+      "calories": 520
     },
     {
       "id": 29,
       "name": "Biryani Rice",
       "sizes": [{ "label": "Regular", "price": 12 }],
-      "image": "/biryani-rice.svg"
+      "image": "/biryani-rice.svg",
+      "description": "Flavored basmati rice with biryani spices, without meat.",
+      "time": "20 mins",
+      "calories": 350
     }
   ],
   "menus": {

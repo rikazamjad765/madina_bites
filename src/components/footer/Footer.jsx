@@ -6,7 +6,7 @@ import { IoLogoTiktok } from "react-icons/io5";
 
 const Footer = () => {
     return (
-        <div className='mt-14 bg-[#FF7305A1] lg:p-6 p-4 font-pt'>
+        <div className=' bg-[#FF7305A1] lg:p-6 p-4 font-pt'>
             <div className='py-2 grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 space-x-10 pb-5'>
                 <div className=''>
                     <img src={'/logo.svg'} className='w-40'/>

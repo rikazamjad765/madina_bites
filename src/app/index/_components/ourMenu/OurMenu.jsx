@@ -2,15 +2,18 @@
 
 import React from "react";
 import productsData from "@/data/products.json";
+import { useCartStore } from "@/store/cartStore";
+import AddToCartButton from "@/components/addToCartButton/AddToCartButton";
 
 export default function OurMenu() {
   const { dishes, currency, menus } = productsData;
+    const addToCart = useCartStore((state) => state.addToCart);
 
   // Convert dishes array into lookup by id
   const dishMap = dishes.reduce((acc, dish) => {
     acc[dish.id] = dish;
     return acc;
-  }, {}); // ✅ no TypeScript here
+  }, {});
 
   // Use menus.main categories to group dishes
   const grouped = Object.entries(menus.main).reduce((acc, [category, ids]) => {
@@ -36,6 +39,7 @@ export default function OurMenu() {
             <div className="space-y-6">
               {items.map((item) => {
                 const firstSize = item.sizes[0];
+                const secondSize = item?.sizes[1];
                 return (
                   <div
                     key={item.id}
@@ -47,15 +51,16 @@ export default function OurMenu() {
                         {item.name}
                       </h4>
                       <p className="text-gray-300 xl:text-3xl lg:text-2xl sm:text-lg mt-1 font-pt max-w-[870px] w-full">
-                        A rich and aromatic curry with tender Chicken simmered
-                        in a creamy, yogurt-based gravy, bursting with a blend
-                        of fragrant spices.
+                        {item.description}
                       </p>
+                      <AddToCartButton item={item} addToCart={addToCart} width="135px"/>
                     </div>
 
                     {/* Right Side (price) */}
                     <span className="font-pt xl:text-3xl lg:text-2xl sm:text-lg font-medium text-white">
                       {firstSize.price} {currency}
+                     <br/> 
+                     {secondSize?.price && <span>{secondSize?.price} {currency}</span>}
                     </span>
                   </div>
                 );
